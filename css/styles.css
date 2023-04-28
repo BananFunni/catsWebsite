@@ -1,0 +1,101 @@
+/* CSS Document */
+
+/*css reset*/
+*,*:after{
+	padding: 0px;
+	margin:0px;
+	border: 0px;
+}
+
+/*colors*/
+/* 
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+ */
+
+body{
+	background-color:#5C3317;
+}
+
+h1{
+	text-align: center;
+	background-color: #F7A26C;
+}
+
+h2{
+	text-align: center;
+	background-color: #F7A26C;
+}
+
+ol li{
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: #804720;
+	color: #CCAF9D;
+	padding: 250px;
+}
+
+p{
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: #804720;
+	color: #CCAF9D;
+	padding: 250px;
+}
+
+blockquote{
+	text-align: center;
+	background-color: #F7A26C;
+}
+
+form{
+	display: inline-block;
+	margin-left: 45%;
+	border: thick double;
+	background-color: #CCAF9D;
+	font-size: 1.5rem;
+}
+
+img{
+	display: block;
+	margin-left: 38%;
+}
+
+.fNav li{
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.fNav li a:active{
+	color: #E76A1A;
+}
+
+.fNav li a:visited{
+	color: #F7A26C;
+}
+
+.fNav li a:hover{
+	color: #CCAF9D;
+	font-size: 1.5em;
+}
+
+
+.fNav ul{
+	text-align: center;
+}
+
+.box{
+	border: thick dotted #CCAF9D;
+}
+
+.notNav{
+	width: 25%;
+	height:25%;
+	margin: 0 auto;
+}
